@@ -1,0 +1,134 @@
+/* start header */
+body {
+  background-color: #f6f8f9;
+}
+.logo {
+  display: inline-block;
+  margin-right: 75px;
+  color: #fa6980;
+}
+.headerwraper {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 65;
+}
+.sectionone {
+  margin-top: 75px;
+}
+.navigation {
+  display: inline-block;
+  height: 50px;
+}
+.navi {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 22px;
+  color: #343638;
+}
+.profile {
+  display: inline-block;
+  vertical-align: middle;
+}
+.home {
+  font-weight: bold;
+}
+/* section 1 */
+.wraper1 {
+  width: 1160px;
+  height: 417px;
+  margin: auto;
+  font-size: 0px;
+  margin-bottom: 67px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  line-height: 20px;
+}
+.block {
+  width: 360px;
+  height: 350px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.margin {
+  margin-right: 40px;
+}
+.firstp {
+  color: #a6adb4;
+  font-size: 13px;
+  width: 280px;
+  margin: auto;
+  text-align: center;
+}
+.image-wraper {
+  margin-bottom: 72px;
+  position: relative;
+}
+.img-title {
+  position: absolute;
+  color: #ffffff;
+  font-size: 16px;
+  top: 28px;
+  left: 40px;
+  font-family: "Inspiration", cursive;
+}
+
+/* section 2 */
+.wraper2 {
+  width: 1160px;
+  margin: auto;
+  font-size: 0px;
+}
+.leftblock {
+  width: 760px;
+  display: inline-block;
+  margin-right: 40px;
+  vertical-align: top;
+}
+.imagewraperleft {
+  position: relative;
+  margin-bottom: 40px;
+}
+.left-block-title {
+  position: absolute;
+  color: #ffffff;
+  right: 15px;
+  bottom: 20px;
+  font-size: 16px;
+}
+.rightblock {
+  width: 360px;
+  height: 896px;
+  display: inline-block;
+  vertical-align: top;
+}
+.imagewraper2 {
+  width: 760px;
+  height: 430px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.rightimg {
+  margin-bottom: 102px;
+}
+.imagewraperright {
+  position: relative;
+}
+.right-block-title {
+  position: absolute;
+  color: #f6f8f9;
+  top: 18px;
+  left: 40px;
+  font-size: 16px;
+}

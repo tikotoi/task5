@@ -3,67 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <title>home page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Inspiration&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>LOGO</li>
-          <li>Home</li>
-          <li>DISCOVERY</li>
-          <li>PHOTOS</li>
-          <li>CONTACT</li>
+    <header class="headerwraper">
+      <a class="logo" href="#">LOGO</a>
+      <nav class="navigation">
+        <ul class="navi">
+          <li class="nav home">HOME</li>
+          <li class="nav">DISCOVERY</li>
+          <li class="nav">PHOTOS</li>
+          <li class="nav">CONTACT</li>
         </ul>
-        <img src="images/picture.png" alt="profilepicture" />
+        <img class="profile" src="images/picture.png" alt="profilepicture" />
       </nav>
+    </div>
     </header>
-    <section>
+    <section class="sectionone">
       <div class="wraper1">
-        <h3>TRENDING</h3>
-        <div block>
+        <h3 class="title">TRENDING</h3>
+        <div class="block margin">
+          <div class="image-wraper">
           <img src="images/Image1.png" alt="nature" />
-          <h4>Dolore magna aliqua</h4>
-          <p>
+          <p class="img-title">Dolore magna aliqua
+          </p>
+          </div>
+          <p class="firstp">
             Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
             appareat.
           </p>
         </div>
-        <div block>
+        <div class="block margin">
+          <div class="image-wraper">
           <img src="images/image2.png" alt="umbrela" />
-          <h4>Morbi eleifend a libero</h4>
-          <p>
+          <p class="img-title">Morbi eleifend a libero</p>>
+        </div>
+          <p class="firstp">
             Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
             appareat.
           </p>
         </div>
-        <div block>
+        <div class="block">
+          <div class="image-wraper">
           <img src="images/image3.png" alt="northpole" />
-          <h4>Morbi eleifend a libero</h4>
-          <p>
+          <p class="img-title">Morbi eleifend a libero</p>
+          </div>
+          <p class="firstp">
             Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has
             appareat.
           </p>
-        </div>
+      </div>
       </div>
     </section>
-    <div class="wraper2">
-      <h3>HAPPENING NOW</h3>
-      <div class="leftblock">
-        <img src="images/Image4.png" alt="bridge" />
-        <h4>Morbi eleifend a libero</h4>
-        <img src="images/Image5.png" alt="wood" />
-      </div>
-      <div class="rightblock">
-        <img src="images/image6.png" alt="elephand" />
-        <h4>Morbi eleifend a libero</h4>
-        <img src="images/image7.png" alt="parrot" />
-        <img src="images/image8.png" alt="road" />
-      </div>
-    </div>
     <section>
-      <div class="wraper2"></div>
+      <div class="wraper2">
+        <h3 class="title">HAPPENING NOW</h3>
+        <div class="leftblock">
+          <div class="imagewraperleft">
+          <img src="images/Image4.png" alt="bridge" />
+          <p class="left-block-title">Morbi eleifend a libero</p>
+        </div>
+          <img src="images/Image5.png" alt="wood" />
+        </div>
+        <div class="rightblock">
+          <div class="imagewraperright">
+          <img class="rightimg" src="images/image6.png" alt="elephand" />
+          <p class="right-block-title">Morbi eleifend a libero</p>
+          <img class="rightimg" src="images/image7.png" alt="parrot" />
+          <img src="images/image8.png" alt="road" />
+        </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
